@@ -1,0 +1,51 @@
+.Icon {
+  color: #898989;
+}
+
+.searchInput {
+  width: 350px !important;
+  border: 1px solid #02374e !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+}
+
+.SearchList {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  width: 350px;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 1;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.SearchList::-webkit-scrollbar {
+  width: 0.3em;
+  background-color: transparent;
+}
+
+.SearchList::-webkit-scrollbar-thumb {
+  width: 0.3em;
+  border-radius: 0.15em;
+  background-color: #02374e;
+}
+
+.SearchList li {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.SearchList li a {
+  color: black;
+  padding: 6px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.SearchList > li > a:hover {
+  background: #0000001a;
+}

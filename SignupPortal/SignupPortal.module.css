@@ -1,0 +1,16 @@
+.structure {
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90vh;
+  flex-direction: column;
+}
+
+.upperStructure {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}

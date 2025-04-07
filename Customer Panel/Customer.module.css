@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shanti&display=swap");
+
+.upperContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 24px;
+  align-items: center;
+}
+
+.lowerComponent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+  border-radius: 12px;
+  font-family: Roboto;
+  padding: 15px;
+  width: 80%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  margin: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selectInput {
+  /* margin-top: 16px; */
+  width: 40%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+.select, .ant-select-selector {
+  /* border: 1px solid; */
+  border-radius: 20px !important;
+  box-sizing: border-box !important;
+  width: 220px !important;
+  border-radius: 4px !important;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  height: 40px !important;
+  border: none;
+  font-size: 14px;
+  margin-top: 5px !important;
+}
+
+.inrow {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.text_in {
+  padding-top: 7px;
+  margin: 0 12px;
+}
+
+.upload {
+  border: 1px solid;
+  border-radius: 20px !important;
+  box-sizing: border-box !important;
+  border-radius: 4px !important;
+  margin-top: 5px !important;
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload:hover {
+  cursor: pointer;
+}
+
+.place_order {
+  /* margin: auto; */
+  /* margin-top: 16px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.place_order > button {
+  width: 200px;
+}
+
+.card img {
+  width: 48px;
+  margin-top: 12px;
+  height: 48px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.inputError {
+  border: red 1px solid !important;
+  background: rgba(255, 0, 0, 0.2) !important;
+}
+
+.selectBox >div{
+  background: rgba(0, 0, 0, 0.1) !important;
+  width: 100% !important;
+  border-radius: 8px !important;
+  height: 40px !important;
+  border: none !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  padding-left: 10px !important;
+}
+

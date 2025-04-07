@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shanti&display=swap");
+
+.upperContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 24px;
+}
+
+.lowerBody {
+  margin: 2px 56px;
+}
+
+.lowerBody > h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  margin: 0;
+  line-height: 32px;
+  color: #02374e;
+}
+
+.lowerBody > p {
+  font-family: Shanti;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 0;
+  color: #02374e;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sortInput {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #000000;
+}
+
+.select {
+  border: 1px solid #02374e !important;
+  box-sizing: border-box !important;
+  width: 200px;
+  border-radius: 4px !important;
+  margin-left: 16px !important;
+}
+
+.lowerBody ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lowerBody ul > li {
+  margin: 0 12px 0 12px;
+}
+
+.lowerBody ul > li:hover {
+  cursor: pointer;
+}
+
+.currlink {
+  color: #02374e;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.LiItem {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #02374e;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.range {
+  display: grid;
+  grid-column-gap: 7px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 40%;
+}
+.range button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #718499;
+}
+.range button:hover {
+  box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+  background: #02374e;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.selectedBtn {
+  color: #ffffff;
+  background: #02374e;
+}

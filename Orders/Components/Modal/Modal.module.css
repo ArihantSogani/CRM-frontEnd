@@ -1,0 +1,124 @@
+.backDrop {
+  position: fixed;
+  height: 100%;
+  background-color: rgba(139, 136, 136, 0.2);
+  z-index: 5;
+  width: 100%;
+  transition: ease-in 2000ms;
+}
+
+.animation {
+  animation: animation ease 1s;
+}
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  border-radius: 24px 0px 0px 24px;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 75%;
+  z-index: 5;
+  background-color: #ffffff;
+  transition: ease-in 2000ms;
+  animation: animation ease 1s;
+}
+
+.cross {
+  background-color: #ffffff !important;
+  border-radius: 50%;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  left: 23.5%;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transition: ease-in 2000ms;
+  animation: animation ease 1s;
+}
+
+.cross:hover {
+  cursor: pointer;
+}
+
+.leftModal {
+  width: 30%;
+  background: #02374e;
+  border-radius: 24px 0px 0px 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 36px;
+  color: #ffffff !important;
+}
+
+.container > h1 {
+  color: #ffffff;
+  margin-top: 36px;
+}
+
+.details {
+  font-size: 14px;
+  display: flex;
+  margin: 8px 0px;
+}
+
+.details > b {
+  margin-right: 4px;
+}
+
+@keyframes animation {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.rightModal {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 32px;
+}
+
+.progressBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.errorIcon {
+  width: 10%;
+  height: 10%;
+  fill: #02374e;
+}
+
+.completedBtn {
+  background: #02374e !important;
+  box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.completedBtn > svg {
+  color: white !important;
+}

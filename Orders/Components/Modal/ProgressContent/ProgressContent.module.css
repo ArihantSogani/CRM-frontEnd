@@ -1,0 +1,106 @@
+.contentContainer {
+  width: 100%;
+  padding: 12px 0px;
+  height: inherit;
+  display: flex;
+  align-items: flex-start;
+}
+
+.MenuTitle {
+  border: 1px solid rgba(0, 0, 0, 0.25) !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  outline: none;
+  width: 96%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px !important;
+  color: #000000;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  justify-content: space-between;
+  padding: 12px 24px;
+}
+
+.gridCell {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.gridCell > label,
+.comment > label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding: 2px 24px;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.finalPart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  margin: 12px 0px;
+  padding: 0px 24px;
+}
+
+.completedButton {
+  width: 80px;
+}
+
+.inputError {
+  border: red 1px solid !important;
+  background: rgba(255, 0, 0, 0.2) !important;
+}
+
+.completedContainer {
+  padding: 12px 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 12px;
+}
+
+.gridContent {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.gridContent > b {
+  margin-right: 12px;
+}
+
+.select {
+  height: 40px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: none;
+  padding: 0px 0 0 2px;
+}

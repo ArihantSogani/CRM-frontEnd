@@ -1,0 +1,63 @@
+.structure {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+}
+
+.dot {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 4px solid #d1d2d7;
+}
+
+.line {
+  height: 4px;
+  width: 18%;
+  background-color: #d1d2d7;
+}
+
+.info {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #02374e;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.filled {
+  background-color: #5d6174 !important;
+  border-color: #5d6174;
+}
+
+.progressFilled {
+  background-color: #1aca8e;
+  border-color: #1aca8e;
+}
+
+.progressline {
+  background-image: linear-gradient(to right, #1aca8e, #d1d2d7);
+}
+
+.filledLine {
+  background-image: linear-gradient(to right, #5d6174, #5d6174);
+}

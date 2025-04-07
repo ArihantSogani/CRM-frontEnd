@@ -1,0 +1,76 @@
+.upperContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 24px;
+}
+
+.stocklowerBody {
+  margin: 2px 45px;
+}
+
+.stocklowerBody>ul li {
+  display: inline-block;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.currlink {
+  text-decoration: none;
+  color: #02374e;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 420;
+  cursor: pointer;
+}
+
+.LiItem {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #02374e;
+}
+
+.flowBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Icon {
+  margin-right: 12px;
+  color: #fff;
+}
+
+.content Button {
+  width: 160px;
+}
+
+.sortInput {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #000000;
+}
+
+.select {
+  border: 1px solid #02374e !important;
+  box-sizing: border-box !important;
+  width: 200px;
+  border-radius: 4px !important;
+  margin-left: 16px !important;
+}

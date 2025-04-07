@@ -1,0 +1,38 @@
+.card {
+  background: #FFFFFF;
+  box-shadow: 5px 10px 15px rgba(82, 11, 94, 0.2);
+  border-radius: 24px;
+  padding: 24px;
+  width: 20%;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #02374E;
+  flex-direction: column;
+}
+
+.card svg {
+  width: 88px;
+  height: 88px;
+  margin: 24px 0px;
+}
+
+.card b {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #02374e;
+  line-height: 42px;
+}
+
+.card:hover {
+  background: #d8d8d8;
+  transition: ease-in 400ms;
+  color: #02374e;
+  text-decoration: none !important;
+}

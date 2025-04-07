@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shanti&display=swap");
+.box {
+  padding: 16px;
+  width: 21%;
+  height: 20%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+  font-family: Shanti, sans-serif !important;
+  margin-bottom: 10px;
+}
+.name {
+  font-size: 14px;
+  color: #02374e;
+  font-weight: 600;
+}
+.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weight {
+  color: #02374e;
+  font-size: 12px;
+}
+.box:hover {
+  cursor: pointer;
+  background-color: #02374e;
+}
+.box:hover .name {
+  color: #fff;
+}
+.box:hover h2 {
+  color: #fff;
+}
