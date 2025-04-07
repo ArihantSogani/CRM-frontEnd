@@ -1,0 +1,16 @@
+.container{
+  width: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 52px;
+}
+
+.image{
+  border: 2px solid #02374E;
+  width: 28px;
+  border-radius: 50%;
+  height: 28px;
+  margin-right: 2px;
+}
