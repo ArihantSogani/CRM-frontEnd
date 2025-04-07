@@ -1,0 +1,66 @@
+.navbar {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  background: #02374e;
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.navbar h2 {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 12px;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+}
+
+.navbar ul li {
+  padding: 12px;
+  font-size: 13px;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.LiItem {
+  display: flex;
+  align-items: center;
+}
+
+.Icon {
+  margin-right: 12px;
+}
+
+.textLink {
+  color: rgb(194, 194, 194);
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+}
+
+.LiItem:hover {
+  color: #fff;
+}
+
+.navbar ul li:hover {
+  background: #074a66;
+}
+
+.selected {
+  background: rgba(255, 255, 255, 0.1);
+}
